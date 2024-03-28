@@ -23,6 +23,8 @@ Pod::Spec.new do |s|
     ss.dependency "RxSwift", "~> 6.0"
     ss.dependency "Alamofire", "~> 5.4"
     ss.framework = "Foundation"
+
+    ss.resources = "Sources/RxAlamofire/PrivacyInfo.xcprivacy"
   end
 
   s.subspec "RxCocoa" do |ss|
